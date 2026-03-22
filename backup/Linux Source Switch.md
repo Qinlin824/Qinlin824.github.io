@@ -1,4 +1,3 @@
-# Linux Source Switch
 ## Changing software sources (mirrors) is a fundamental skill for any Linux user, especially when dealing with restricted or slow international bandwidth. Since different distributions use different package managers, the process varies. Here is a comprehensive guide to switching to Chinese mirrors (such as TUNA, Alibaba, or Huawei Cloud) for the most common Linux families.
 
 ## 1. Debian / Ubuntu Family
