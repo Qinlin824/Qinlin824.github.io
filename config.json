@@ -1,6 +1,10 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "title":"Dasa's Voyage",
+    "subTitle":"Where logic is the only language, and technology the ultimate destination.",
+    "avatarUrl":"https://github.com/Qinlin824.png",
+    "GMEEK_VERSION":"last",
+    "email":"your-email@example.com",
+    "description":"Exploring SBC, Linux, and the Blockchain.",
+    "copyrightLabel":"Dasa",
+    "startSite":"2026-03-22"
 }
