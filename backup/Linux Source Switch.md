@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Dasa's Voyage</title><link>https://blog.qinlin.qzz.io</link><description>Where logic is the only language, and technology the ultimate destination.</description><copyright>Dasa's Voyage</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Qinlin824.png</url><title>avatar</title><link>https://blog.qinlin.qzz.io</link></image><lastBuildDate>Sun, 22 Mar 2026 08:26:10 +0000</lastBuildDate><managingEditor>Dasa's Voyage</managingEditor><ttl>60</ttl><webMaster>Dasa's Voyage</webMaster><item><title>Linux Source Switch</title><link>https://blog.qinlin.qzz.io/post/Linux%20Source%20Switch.html</link><description># Linux Source Switch
+# Linux Source Switch
 ## Changing software sources (mirrors) is a fundamental skill for any Linux user, especially when dealing with restricted or slow international bandwidth. Since different distributions use different package managers, the process varies. Here is a comprehensive guide to switching to Chinese mirrors (such as TUNA, Alibaba, or Huawei Cloud) for the most common Linux families.
 
 ## 1. Debian / Ubuntu Family
@@ -31,7 +30,7 @@ These distributions use the `apt` package manager. Configuration is primarily st
     sudo apt update
     ```
 
-&gt; **Note for Ubuntu 24.04+:** Modern versions use the DEB822 format located at `/etc/apt/sources.list.d/ubuntu.sources`. You should modify the `URIs` field within that specific file.
+> **Note for Ubuntu 24.04+:** Modern versions use the DEB822 format located at `/etc/apt/sources.list.d/ubuntu.sources`. You should modify the `URIs` field within that specific file.
 
 ---
 
@@ -61,7 +60,7 @@ Arch Linux uses `pacman`. Mirror priority is determined by the order of entries 
 ## 3. Red Hat / Fedora / CentOS / AlmaLinux
 These systems use `dnf` or `yum`. Configuration files are located in `/etc/yum.repos.d/`.
 
-### **The 'Clean Slate' Method**
+### **The "Clean Slate" Method**
 
 1.  **Backup and remove old repos:**
     ```bash
@@ -107,18 +106,18 @@ If you are running Raspberry Pi OS, the mirror URL is different from standard De
 
 | Provider | URL | Best For |
 | :--- | :--- | :--- |
-| **Tsinghua (TUNA)** | `https://mirrors.tuna.tsinghua.edu.cn` | Academic &amp; General |
-| **Alibaba Cloud** | `https://mirrors.aliyun.com` | Enterprise &amp; Stability |
-| **USTC** | `https://mirrors.ustc.edu.cn` | Speed &amp; Reliability |
+| **Tsinghua (TUNA)** | `https://mirrors.tuna.tsinghua.edu.cn` | Academic & General |
+| **Alibaba Cloud** | `https://mirrors.aliyun.com` | Enterprise & Stability |
+| **USTC** | `https://mirrors.ustc.edu.cn` | Speed & Reliability |
 
 ---
 
-## Technical Analysis &amp; Tips
+## Technical Analysis & Tips
 
 ### **1. Permissions**
-Since you are modifying system files in `/etc`, you must use `sudo`. Without it, you will receive a 'Permission Denied' error when trying to save.
+Since you are modifying system files in `/etc`, you must use `sudo`. Without it, you will receive a "Permission Denied" error when trying to save.
 
 ### **2. HTTPS Support**
-Some minimal base images (especially Debian/Ubuntu 'slim' versions) don't support HTTPS out of the box. Install the necessary packages first:
+Some minimal base images (especially Debian/Ubuntu "slim" versions) don't support HTTPS out of the box. Install the necessary packages first:
 ```bash
-sudo apt install apt-transport-https ca-certificates。</description><guid isPermaLink="true">https://blog.qinlin.qzz.io/post/Linux%20Source%20Switch.html</guid><pubDate>Sun, 22 Mar 2026 08:25:40 +0000</pubDate></item><item><title>Mann</title><link>https://blog.qinlin.qzz.io/post/Mann.html</link><description>Hi Dasa from San Francisco.。</description><guid isPermaLink="true">https://blog.qinlin.qzz.io/post/Mann.html</guid><pubDate>Sun, 22 Mar 2026 06:59:53 +0000</pubDate></item></channel></rss>
+sudo apt install apt-transport-https ca-certificates
